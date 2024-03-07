@@ -47,13 +47,13 @@ const Login = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-2xl"></div>
       <Card className="shadow-2xl bg-opacity-20 w-[480px]">
         <CardHeader className="flex flex-col gap-1 capitalize text-3xl items-center">
-          <div className=" flex flex-col items-center justify-center">
+          <div className=" flex flex-col items-center justify-center border-b-2 border-white">
             <Image
               src="/1.png"
               alt="logo"
               height={80}
               width={80}
-              className="cursor-pointer"
+              className="cursor-pointer rounded-full"
               onClick={() => router.push("/admin/dashboard")}
             />
             <span className="text-xl uppercase font-medium italic text-white">
