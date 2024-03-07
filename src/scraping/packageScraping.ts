@@ -45,7 +45,7 @@ export const startPackageScraping = async (page: Page, pkg: PackageType) => {
     descriptionSelector?.querySelector(".readMore")?.click();
     packageDetails.description = packageElement
       ?.querySelector("#pkgOverView p")
-      ?.innerHTML.replace(regex, "Arklyte") as string;
+      ?.innerHTML.replace(regex, "Superfly") as string;
 
     packageDetails.images = Array.from(
       packageElement?.querySelectorAll(".galleryThumbImg")

@@ -70,3 +70,4 @@ Technologies used in the project:
 *   Axios
 *   PostgreSQL
 *   Prisma
+# Test git init git add README.md git commit -m first commit git branch -M main git remote add origin git@github.com:Devon27/Booking-App.git git push -u origin main

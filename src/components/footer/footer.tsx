@@ -29,9 +29,9 @@ const Footer = () => {
       <div className="relative z-10 p-4 grid grid-cols-4 gap-20 text-white">
         <div>
           <div className="cursor-pointer" onClick={() => router.push("/")}>
-            <Image src="/logo.png" alt="logo" height={80} width={80} />
+            <Image src="/1.png" alt="logo" height={80} width={80} />
             <span className="text-xl uppercase font-medium italic">
-              <span className={ArchitectsDaughter.className}>ARKLYTE</span>
+              <span className={ArchitectsDaughter.className}>SUPERFLY</span>
             </span>
           </div>
           <p>

@@ -58,7 +58,7 @@ const Login = () => {
             />
             <span className="text-xl uppercase font-medium italic text-white">
               <span className={ArchitectsDaughter.className}>
-                ARKLYTE Admin Login
+                Superfly Admin Login
               </span>
             </span>
           </div>

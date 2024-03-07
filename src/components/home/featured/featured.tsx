@@ -26,7 +26,7 @@ const Featured = () => {
     <div className="my-[20vh] h-full relative z-30 mx-20 pt-10 text-center">
       <h1 className="text-4xl font-bold mb-2">Featured places to stay</h1>
       <p className="text-lg font-medium mb-5 text-gray-500">
-        Popular places to stay that Arklyte recommends for you
+        Popular places to stay that Superfly recommends for you
       </p>
       <div className="grid grid-cols-4 gap-5 mx-48">
         {cities.map((place) => (

@@ -88,7 +88,7 @@ const AuthModal = ({
             <ModalBody className="flex flex-col items-center w-full justify-center">
               <div className="">
                 <Image
-                  src="/logo.png"
+                  src="/1.png"
                   alt="logo"
                   height={80}
                   width={80}
@@ -96,7 +96,7 @@ const AuthModal = ({
                   onClick={() => router.push("/admin/dashboard")}
                 />
                 <span className="text-xl uppercase font-medium italic">
-                  <span className={ArchitectsDaughter.className}>ARKLYTE</span>
+                  <span className={ArchitectsDaughter.className}>SuperFly</span>
                 </span>
               </div>
               <div className="flex flex-col gap-2 w-full">

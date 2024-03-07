@@ -8,6 +8,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useRef, useState } from "react";
 import { FaSearch } from "react-icons/fa";
+import "../../app/search-flights/searchFlights.css";
 
 const SearchFlights = () => {
   const router = useRouter();
@@ -113,8 +114,8 @@ const SearchFlights = () => {
             <h3 className="text-xl font-bold">
               Best Flights made for you in mind!
             </h3>
-            <h2 className="text-6xl font-extrabold">
-              Explore the exotic world.
+            <h2 className="text-6xl font-extrabold animate-fade-in">
+            Beyond Your Imagination.
             </h2>
           </div>
           <div className="grid grid-cols-3 items-center justify-center  px-10  gap-5">

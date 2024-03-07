@@ -17,9 +17,9 @@ export const register = async () => {
       console.log("in if");
       const data = await prisma.admin.create({
         data: {
-          email: "admin@arklyte.com",
+          email: "superflyadmin@superfly.com",
           password:
-            "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918",
+            "8c6976e5b5410415bde908bd4dee16dfb167a9c873fc4bb8a81f6f2ab448a918",
         },
       });
       console.log({ data });

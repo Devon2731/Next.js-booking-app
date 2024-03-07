@@ -9,7 +9,7 @@ import PageLayout from "./PageLayout";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ARKLYTE",
+  title: "SUPERFLY",
   description: "Your travel companion",
 };
 

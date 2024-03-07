@@ -62,9 +62,9 @@ const Navbar = ({ onOpen }: { onOpen: () => void }) => {
             className="cursor-pointer flex items-center"
             onClick={() => router.push("/")}
           >
-            <Image src="/logo.png" alt="logo" height={80} width={80} />
+            <Image src="/1.png" alt="logo" height={80} width={80} />
             <span className="text-xl uppercase font-medium italic">
-              <span className={ArchitectsDaughter.className}>ARKLYTE</span>
+              <span className={ArchitectsDaughter.className}>SUPERFLY</span>
             </span>
           </div>
         </NavbarBrand>

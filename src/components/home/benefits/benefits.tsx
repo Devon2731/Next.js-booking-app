@@ -34,7 +34,7 @@ const Benefits = () => {
       <div className="flex flex-col gap-5">
         <div>
           <p className="uppercase text-neutral-600">Benefits</p>
-          <h2 className="font-semibold text-4xl mt-5">Arklyte Features</h2>
+          <h2 className="font-semibold text-4xl mt-5">Superfly Features</h2>
         </div>
         <div className="flex flex-col gap-10">
           {data.map((feature) => (

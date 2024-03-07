@@ -3,6 +3,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { Button, Input, Listbox, ListboxItem } from "@nextui-org/react";
 import { FaCalendarAlt, FaSearch } from "react-icons/fa";
+import "../../../components/home/search/search.css";
 
 const Search = () => {
   const router = useRouter();
@@ -48,7 +49,7 @@ const Search = () => {
           <h3 className="text-xl font-bold">
             Best Tours made for you in mind!
           </h3>
-          <h2 className="text-6xl font-extrabold">Explore the exotic world.</h2>
+          <h2 className="text-6xl font-extrabold animate-fade-in">Beyond Your Imagination.</h2>
         </div>
         <div className="grid grid-cols-3 gap-5  p-5 rounded-xl ">
           <Input

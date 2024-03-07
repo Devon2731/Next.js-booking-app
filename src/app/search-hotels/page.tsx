@@ -6,6 +6,7 @@ import { Button, Input, Listbox, ListboxItem } from "@nextui-org/react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useEffect, useRef, useState } from "react";
+import "../../app/search-hotels/searchHotel.css";
 
 const SearchHotels = () => {
   const { setScrapingType, setScraping, setScrappedHotels } = useAppStore();
@@ -96,8 +97,8 @@ const SearchHotels = () => {
             <h3 className="text-xl font-bold">
               Best Hotels made for you in mind!
             </h3>
-            <h2 className="text-6xl font-extrabold">
-              Explore the exotic world.
+            <h2 className="text-6xl font-extrabold animate-fade-in">
+             Beyond Your Imagination.
             </h2>
           </div>
           <div className="grid grid-cols-2 items-center justify-center  px-10  w-[50vw] gap-5">
