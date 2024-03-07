@@ -49,7 +49,7 @@ const Login = () => {
         <CardHeader className="flex flex-col gap-1 capitalize text-3xl items-center">
           <div className=" flex flex-col items-center justify-center">
             <Image
-              src="/logo.png"
+              src="/1.png"
               alt="logo"
               height={80}
               width={80}
